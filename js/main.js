@@ -39,9 +39,9 @@ document.querySelector ('span.coins').innerText = coins
         document.querySelector('span.coins').innerText = coins
     }, 2000)
 }
-
 }
 
+// JS code completed in community hours with the help and guidance of Michael Kazin- Mentor 
 
 
 

@@ -2,13 +2,14 @@
     box-sizing: border-box;
 }
 
+/* sourced from lines 10-13 */
 html {
     background-image: url(../:img/backgroundimg1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;  
 }
 
+/* sourced from line 19 */
 body {
     text-align: center;
 }
@@ -17,15 +18,17 @@ body {
     width: 50%;
 }
 
+/* sourced from line 26-28 */
 .slots {
     font-size: 3.5rem;
     margin-top: -1rem;
 }
-
+/* sourced from line 32 */
 h1 {
     font-size: 2.5rem;
 }
 
+/* sourced from lines 36-42 */
 .container {
     background: rgba(250, 250, 250, 0.5);
     color: darkblue;
@@ -36,26 +39,34 @@ h1 {
     margin-right: auto;
 }
 
+/* sourced from lines 46-47 */
 .reels {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* sourced from lines 49-52 */
 .reel1, .reel2, .reel3 {
         width: 30%;
         background: white;
         border-radius: 0.5rem;
     }
+    /* sourced from lines 54-55 */
 .reels img {
         width: 99%;
     }
 
-button {
-   
+    /* sourced from lines 60-61 */
+button {   
     padding: 0.5em;
     font-size: 1.25rem;
 }
 
+/* sourced from lines 64-66 */
 .buttons {
     padding-top: 2rem;
     margin-bottom: -0.5rem;
 }
+
+/* CSS code sourced from https://github.com/xsarahyu/GOT-slot-machine/blob/answer/css/main.css  */
+/* lines referenced: 10-13, 19-21, 35-42, 45-55 60-66*/
